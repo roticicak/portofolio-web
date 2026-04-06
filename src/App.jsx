@@ -1,6 +1,6 @@
-import dash from "./assets/dashboard.png";
-import cashier from "./assets/cashier.png";
-import chart from "./assets/chart.png";
+import dash from "./assets/dashboard.jpeg";
+import cashier from "./assets/cashier.jpeg";
+import chart from "./assets/chart.jpeg";
 import React, { useState } from "react";
 import profile from "./assets/profile.jpg";
 

@@ -1,3 +1,6 @@
+import dash from "./assets/dashboard.png";
+import cashier from "./assets/cashier.png";
+import chart from "./assets/chart.png";
 import React, { useState } from "react";
 import profile from "./assets/profile.jpg";
 
@@ -6,11 +9,11 @@ export default function App() {
 
   const projects = [
     {
-      title: "POS System",
-      desc: "Web-based cashier system with dashboard & reports",
-      tech: ["Laravel", "MySQL", "JavaScript"],
-      demo: "#",
-      github: "#",
+      title: "Angkringan Jo POS System (Web-Based Cashier & Analytics App)",
+      desc: "A web-based Point of Sale (POS) system designed for small food businesses like angkringan. This application allows cashiers to manage transactions, track sales, and generate business insights such as best-selling products and cashier performance.",
+      tech: ["React.js", "Tailwind CSS", "React Router DOM"],
+      demo: "https://pos-angkringan.vercel.app/",
+      github: "https://github.com/roticicak/pos-angkringan",
       detail:
         "This system helps manage transactions, track sales, and generate reports with a user-friendly dashboard.",
     },
@@ -168,8 +171,26 @@ I combine web development, data analysis, and UI/UX to create practical and user
             ))}
           </div>
 
-          <div className="bg-gray-800 h-64 rounded-2xl flex items-center justify-center text-gray-500">
-            Project Screenshot Here
+          <div className="bg-gray-800 p-4 rounded-2xl">
+            <div className="mt-6 grid md:grid-cols-3 gap-4">
+  <img
+    src={dash}
+    alt="Dashboard"
+    className="rounded-xl shadow-lg hover:scale-105 transition"
+  />
+
+  <img
+    src={cashier}
+    alt="Cashier"
+    className="rounded-xl shadow-lg hover:scale-105 transition"
+  />
+
+  <img
+    src={chart}
+    alt="Chart"
+    className="rounded-xl shadow-lg hover:scale-105 transition"
+  />
+</div>
           </div>
         </div>
       )}

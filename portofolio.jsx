@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function Portfolio() {
+export default function App() {
   const [selectedProject, setSelectedProject] = useState(null);
 
   const projects = [
@@ -38,7 +38,7 @@ export default function Portfolio() {
       {/* Navbar */}
       <nav className="fixed w-full bg-gray-900 border-b border-gray-700 p-4 z-50">
         <div className="max-w-6xl mx-auto flex justify-between">
-          <span className="font-bold">Steven</span>
+          <span className="font-bold">My Portofolio</span>
           <div className="space-x-4 text-sm">
             <a href="#about">About</a>
             <a href="#projects">Projects</a>

@@ -111,7 +111,7 @@ I combine web development, data analysis, and UI/UX to create practical and user
         {/* Contact */}
         <section id="contact" className="text-center">
           <h2 className="text-2xl font-semibold mb-4">Contact</h2>
-          <p className="text-gray-400">stevensamuelputrabastian@email.com</p>
+          <p className="text-gray-400">stevensamuelputrabastian@gmail.com</p>
         </section>
       </div>
 
